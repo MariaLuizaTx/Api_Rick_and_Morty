@@ -1,12 +1,12 @@
 import React from "react";
-import Rotas from "./Rotas";
+import Api from "./Components/Api";
 
 
 export default class App extends React.Component{
   render(){
     return(
       <>
-        <Rotas/>
+        <Api/>
       </>
     )
   }

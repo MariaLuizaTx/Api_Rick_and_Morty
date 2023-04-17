@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
-import Home from "./Components/Home";
-import Api from "./Components/Api";
+import Home from "./Home";
+import Api from "./Api";
 
 export default class Rotas extends React.Component{
     render(){
